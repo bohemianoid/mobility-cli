@@ -1,0 +1,26 @@
+{
+  "name": "mobility-cli",
+  "version": "0.1.0",
+  "description": "Command-Line Interface for the Mobility Price Calculator",
+  "bin": {
+    "mobility": "cli.js"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": "simonroth/mobility-cli",
+  "keywords": [
+    "cli",
+    "mobility",
+    "price",
+    "calculator"
+  ],
+  "author": "Simon Roth <atelier@simonroth.ch> (https://simonroth.ch)",
+  "license": "Unlicense",
+  "dependencies": {
+    "cli-columns": "*",
+    "date.js": "*",
+    "got": "*",
+    "yargs": "*"
+  }
+}
